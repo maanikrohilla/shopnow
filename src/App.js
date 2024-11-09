@@ -5,6 +5,7 @@ function App() {
   return (
     <>
     <h1>This is SHopnow page</h1>
+    <p>jghghghg</p>
     </>
   );
 }
