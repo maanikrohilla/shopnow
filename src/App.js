@@ -1,11 +1,16 @@
-import logo from './logo.svg';
+
 import './App.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Auth from './pages/Auth';
 
 function App() {
   return (
     <>
-    <h1>This is SHopnow page</h1>
-    <p>jghghghg</p>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/auth' element={<Auth />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
