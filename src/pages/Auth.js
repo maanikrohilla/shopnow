@@ -5,6 +5,8 @@ import Login from '../components/Login'
 
 function Auth() {
     const [toggleAuth, settoggleAuth] = useState(false)
+    
+
     return (
         <>
             <div className=" w-3/12 m-auto h-screen justify-center items-center flex flex-col gap-3">
